@@ -9,7 +9,7 @@ dashboard for predictions and analytics.
 PROJECT STRUCTURE
 ------------------
 
-streamlit_app.py                 - Streamlit dashboard (prediction + analytics)
+app.py                 - Streamlit dashboard (prediction + analytics)
 
 customer_transactions.csv      - Sample transaction data
 
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 RUN THE APP
 -----------
 
-streamlit run streamlit_app.py
+streamlit run app.py
 
 Opens at http://localhost:8501
 
